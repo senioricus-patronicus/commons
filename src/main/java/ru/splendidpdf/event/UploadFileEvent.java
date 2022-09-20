@@ -6,8 +6,10 @@ import ru.splendidpdf.model.TaskStatus;
 
 @Value
 @Builder
-public class UpdatedTaskEvent implements Event {
+public class UploadFileEvent implements Event {
     String taskId;
-    String resultUrl;
-    TaskStatus taskStatus;
+    String fileName;
+    String timestamp;
+    TaskStatus status;
+    String encodedFile;
 }

@@ -4,8 +4,10 @@ public enum TaskStatus {
     CREATED,
 
     ON_CONVERSION,
-    ON_RESIZING,
-    ON_EDITING,
+    ON_COMPRESSION,
+
+    CONVERTED,
+    COMPRESSED,
 
     FAILED,
     FINISHED;

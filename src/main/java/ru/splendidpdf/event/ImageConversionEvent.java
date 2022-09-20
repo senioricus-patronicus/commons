@@ -5,11 +5,10 @@ import lombok.Value;
 
 @Value
 @Builder
-public class ImageConversionEvent {
+public class ImageConversionEvent implements Event {
     String taskId;
     String fileName;
-    String formatTo;
-    String formatFrom;
-    String encodedContent;
+    String convertTo;
     String timestamp;
+    String encodedContent;
 }
