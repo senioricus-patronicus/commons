@@ -12,6 +12,5 @@ public class ActivityEvent implements Event {
     String fileType;
     String activityType;
     String createdAt;
-    FileStorageInfo fileStorageInfo;
     UserClientDetails userClientDetails;
 }
