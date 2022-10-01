@@ -7,5 +7,5 @@ import lombok.Value;
 @Builder
 public class ImageEvent implements Event {
     String taskType;
-    String taskData;
+    Object taskData;
 }
